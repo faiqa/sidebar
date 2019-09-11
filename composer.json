@@ -1,0 +1,19 @@
+{
+    "name": "eazycustoms/sidebar",
+    "description": "side navigation for eazycustoms modules",
+    "type": "composer-plugin",
+    "authors": [
+        {
+            "name": "Faiqa Jahangir",
+            "email": "faiqa.jahangir@porath.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "sidebar": "src/"
+        }
+    }
+}
