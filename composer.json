@@ -2,6 +2,7 @@
     "name": "eazycustoms/sidebar",
     "description": "side navigation for eazycustoms modules",
     "type": "composer-plugin",
+    "version": "0.1",
     "authors": [
         {
             "name": "Faiqa Jahangir",
