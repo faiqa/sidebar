@@ -1,0 +1,8 @@
+{
+  "name":"side-bar",
+  "autoload":{
+    "psr-4":{
+      "SideBar\\":"src/"
+    }
+  }
+}
