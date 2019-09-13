@@ -15,6 +15,22 @@ class sidebar extends ServiceProvider
 
     }
 
+    public static function setLayout()
+    {
+
+        $sideBar = self::getCore();
+        $topNav = self::getTopNavigation();
+
+        echo view('eazycustoms::default', ['sideBar' => $sideBar, 'topNav' => $topNav ])->render();
+
+    }
+
+    public static function getTopNavigation(){
+
+        return view('eazycustoms::topNav');
+
+    }
+
     public static function setSideBar()
     {
 
